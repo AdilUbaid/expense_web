@@ -1,4 +1,5 @@
 import 'package:expense_web/utils/colors.dart';
+import 'package:expense_web/utils/constands.dart';
 import 'package:expense_web/utils/styles.dart';
 import 'package:flutter/material.dart';
 import 'package:responsive_builder/responsive_builder.dart';
@@ -79,7 +80,7 @@ class _NavBarState extends State<NavBar> {
     return Container(
       width: 110,
       decoration: const BoxDecoration(
-          image: DecorationImage(image: AssetImage("assets/images/logo.png"))),
+          image: DecorationImage(image: AssetImage(logo))),
     );
   }
 }

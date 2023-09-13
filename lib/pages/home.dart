@@ -1,3 +1,4 @@
+import 'package:expense_web/pages/containers/container1.dart';
 import 'package:expense_web/utils/constands.dart';
 import 'package:expense_web/widgets/navbar.dart';
 import 'package:flutter/material.dart';
@@ -18,7 +19,7 @@ class _HomeState extends State<Home> {
     return Scaffold(
       body: SingleChildScrollView(
           child: Container(
-        child: Column(children: [NavBar()]),
+        child: Column(children: [NavBar(), Container1()]),
       )),
     );
   }
